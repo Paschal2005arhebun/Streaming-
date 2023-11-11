@@ -1,0 +1,32 @@
+body{
+    text-align: center justify;
+    background-image: url("image/wallpaper.jpg")   ;
+    
+}
+.main{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-bottom: 20px;
+    
+    border-radius: 10px;
+}
+div.scroll{
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.685)34, 33, 33);
+    white-space: nowrap;
+    padding: 10px 10px;
+}
+div.scroll div.line {
+    display:inline-flex;
+    justify-content: space-around;
+    
+}
+.header{
+    display: inline;
+}
+video{
+    border: solid 2px black ;
+    border-radius: 4px;
+}
